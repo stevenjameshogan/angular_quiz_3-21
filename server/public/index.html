@@ -8,10 +8,12 @@
     <script src="scripts/client.js"></script>
 </head>
 <body ng-app="myApp">
-    <div>
+    <div ng-controller="SteveController as kitty">
         <h1>Angular Quiz 3-21</h1>
         <input ng-model="input1" type="text">
         {{input1}}
+
+        <p>{{kitty.message}}</p>
     </div>
     
 </body>
